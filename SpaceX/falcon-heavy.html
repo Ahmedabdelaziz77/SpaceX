@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>SpaceX - Falcon Heavy</title>
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+      <ul>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Launches</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Shop</a></li>
+      </ul>
+    </div>
+    <header class="main-header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="SpaceX" />
+        </a>
+      </div>
+      <nav class="desktop-main-menu">
+        <ul>
+          <li><a href="falcon9.html">Falcon 9</a></li>
+          <li><a href="falcon-heavy.html">Falcon Heavy</a></li>
+          <li><a href="dragon.html">Dragon</a></li>
+          <li><a href="#">Starship</a></li>
+          <li><a href="#">Human Spaceflight</a></li>
+          <li><a href="#">Rideshare</a></li>
+          <li><a href="starshield.html">Starshield</a></li>
+          <li><a href="#">Starlink</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li id="last"><a href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <button id="menu-btn" class="menu" type="button">
+      <span class="menu-top"></span>
+      <span class="menu-middle"></span>
+      <span class="menu-bottom"></span>
+    </button>
+
+    <section class="section-animate bg-falcon-heavy"></section>
+    <div class="section-inner-center">
+      <h3>Falcon Heavy</h3>
+      <p>OVER 5 MILLION LBS OF THRUST</p>
+    </div>
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path
+          stroke="#ffffff"
+          fill="none"
+          stroke-width="2px"
+          d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+        ></path>
+      </svg>
+    </div>
+
+    <div class="stats">
+      <div>
+        <span class="counter" data-target="4">0</span>
+        <h4>Total Launches</h4>
+      </div>
+      <div>
+        <span class="counter" data-target="9">0</span>
+        <h4>Total Landings</h4>
+      </div>
+      <div>
+        <span class="counter" data-target="4">0</span>
+        <h4>Total Reflights</h4>
+      </div>
+    </div>
+
+
+    <section class="video2">
+      <button id="play-btn" class="play" type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.025" height="81.486" viewBox="0 0 64.025 81.486" class="play-arrow">
+        <g>
+        <path d="M8,5V86.486L72.025,45.743Z" transform="translate(-8 -5)" fill="#fff"></path>
+        </g>
+      </svg>
+    </button>
+      <div class="section-inner">
+        <h4>video</h4>
+        <h2>Falcon heavy first<br> flight</h2>
+      </div>
+
+      <div class="scroll-arrow">
+        <svg width="30px" height="20px">
+          <path
+            stroke="#ffffff"
+            fill="none"
+            stroke-width="2px"
+            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+
+    <section class="video3">
+       <video class="videoPlayer" autoplay="" loop="" muted="" width="70%" height="90%" preload="auto" autobuffer="true">
+        <source type="video/mp4" src="img/SpaceX - Falcon Heavy.mp4">
+      </video>
+          <div class="section-inner">
+            <h2>Unmatched Performance<br> 
+              <p>With more than 5 million pounds of thrust at liftoff, Falcon Heavy is one of the most capable rockets flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.</p></h2>
+      </div>
+    </section>
+
+        <!-- Section B -->
+        <section>
+              <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="section-inner">
+    </div>
+    <img src="img/FH_1.jpg" style="width:100%;">
+    <div class="text">Falcon Heavy vertical at Kennedy Space Center</div>
+    
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/F9_1.jpg" style="width:100%; height: 50%;">
+    <div class="text">Falcon 9 first and second stages after separating in flight</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/F9_10.jpg" style="width:100%">
+    <div class="text"><span class="te">Falcon 9 vertical with its Iridium payload at moonrise</span></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+        </section>
+<section class="foot">
+    <div class="vl"></div>
+    <div class="flex">
+      <div class="text2">For information about our launch services, contact sales@spacex.com</div>
+      <div class="btn1">          <a href="#" class="btn">
+        <div class="hover"></div>
+        <span>Download user's guide</span>
+      </a></div>
+      <div class="btn2">            <a href="#" class="btn">
+        <div class="hover"></div>
+        <span>capabilites and services</span>
+      </a></div>
+
+
+
+
+    </div>
+</section>
+
+
+    <footer>
+      <ul>
+        <li>SpaceX &copy; 2022</li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">YouTube</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Flickr</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Suppliers</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
